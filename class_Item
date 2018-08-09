@@ -1,0 +1,23 @@
+     public class Item
+    {
+        [JsonProperty("gear_level")]
+        public string gear_level { get; set; }
+
+        [JsonProperty("power")]
+        public string power { get; set; }
+
+        [JsonProperty("level")]
+        public string level { get; set; }
+
+        [JsonProperty("url")]
+        public string url { get; set; }
+
+        [JsonProperty("combat_type")]
+        public string combat_type { get; set; }
+
+        [JsonProperty("rarity")]
+        public string rarity { get; set; }
+
+        [JsonProperty("player")]
+        public string player { get; set; }
+    }
